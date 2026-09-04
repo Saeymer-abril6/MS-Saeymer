@@ -1,4 +1,4 @@
-package pe.edu.upeu.algoritmosgui;
+package pe.edu.upeu.sysventas;
 
 import javafx.application.Application;
 
