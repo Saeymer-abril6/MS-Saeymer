@@ -1,6 +1,6 @@
 package pe.edu.upeu.sysventas.enums;
 
-public enum Menus {
+public enum  Menus {
     PRINCIPAL,
     VENTAS,
     COMPRAS,
