@@ -7,8 +7,8 @@ import java.util.Optional;
 public abstract class AbstractJpaRepository<T,ID> implements ICrudGenericoRepository<T,ID> {
     protected final List<T> data=new ArrayList<>();
 
-    protected abstract ID getId(T entyte);
-    protected abstract void setId(T entyte, ID id);
+    protected abstract ID getId(T entity);
+    protected abstract void setId(T entity, ID id);
     protected abstract ID generateId();
 
     @Override
